@@ -628,9 +628,23 @@ a {
 
   .portfolio-image {
     padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.portfolio-image-bt-text {
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
   .portfolio-description {
     padding-top: 50px;
+}
+
+.portfolio-description-first {
+  padding-top: 150px;
 }
 
 
@@ -671,4 +685,15 @@ video {
 
 .svgImage{
 margin-top: 20px;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #bac964;
+}
+
+h2{
+  
+  color: #bac964;
 }
