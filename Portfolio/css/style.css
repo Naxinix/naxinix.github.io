@@ -640,19 +640,29 @@ a {
 
   .portfolio-image {
     padding-top: 100px;
+    padding-right: 5%;
     margin-left: auto;
     margin-right: auto;
     
 }
 
 .portfolio-image-bt-text {
-  padding-top: 20px;
+  padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
   
 }
   .portfolio-description {
     padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.portfolio-img-side-txt {
+  padding-top: 100px;
+  padding-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-description-first {
