@@ -4773,7 +4773,25 @@ button.close {
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden; 
+
+}
+
+.carousel-inner.image{
+  position: relative;
+  width: 100%;
+  overflow: hidden; 
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 2);
+  border-radius: 0.8%;
+  opacity: 1;
+  display: block;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
 
 .carousel-item {
   position: relative;
