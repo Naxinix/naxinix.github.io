@@ -44,35 +44,94 @@
 		</div>
 	</nav>
 
+	
+	<section class="site-section">
 	<div class="container">
-		<div class="portfolio-image">
+		<div class="resume-item mb-4" style="margin-top: 40px;">
 			<div class="row">
-			<div class="col-md-12">
-			<video controls>
-				<source src="images/Mario.mp4" type="video/mp4">
-				Your browser does not support HTML video.
-			  </video>
+				<div class="col-md-12">
+					<h1><b>Super Mario Level Generator using Design Patterns</b></h1><br>
+				<video controls>
+					<source src="images/Mario.mp4" type="video/mp4">
+					Your browser does not support HTML video.
+				  </video>
+				</div>
 			</div>
 		</div>
+
+		<div class="resume-item mb-4">
+			<div class="row">	
+			<div class="col-md-12">			
+			<h2 style="text-align: center;"><b>Overview</b></h2>
+			<p>As part of my university final project, I made a <strong>thesis </strong>called <i>&quot;Super Mario Level Generator, an approach to procedurally generated worlds through design patterns&quot;</i>, in which I explore the <strong>problems </strong>that <strong>prodedural level generation</strong> implies in <strong>2D-platform games</strong>, and how these <strong>problems can be resolved</strong> using <strong>game and level design patterns</strong>.<br />
+				<br />
+				In order to support the thesis, I created a <strong>Super Mario Level Generator</strong> which creates <strong>automatized levels based on these principles</strong>. The<strong> video above</strong> shows an <strong>example of a generated level</strong>.<br />
+				<br />
+				The generator is entirely made on C++ and uses &quot;Mario Editor&quot;, a useful open source tool developed by <i>Hello Fangaming</i>, as the engine in which to play the generated levels.<br />
+				&nbsp;</p>
+			</div>
+		</div>
+		
+		</div>
+
+		<div class="resume-item mb-4">
+			<div class="row">	
+			<div class="col-md-12">			
+			<h2 style="text-align: center;"><b>How does it work</b></h2>
+			<p>The investigation begins by identifying a good amount of design patterns, both e<strong>xclusive to Super Mario</strong> (Horde of enemies, series of pipes, etc) and more <strong>general patterns</strong> (Guide, Risk-Reward, etc ), collected throughout platform levels. With the patterns identified, the levels of which were collected are analyzed separately with the intention of examine<strong> how these patterns work and connect with others</strong>.</p>
+
+<p>These patterns are then parametrized are <strong>assigned a value</strong> in terms of aspects like their <strong>difficulty </strong>to go through or the <strong>hazards </strong>that present the player. Then, an algorithm (t<strong>he Knapsack problem</strong>), arranges them and creates a whole level based on the user&#39;s selected difficulty (easy, normal, hard). Things like <strong>flow</strong>, <strong>progression </strong>and <strong>ryhtm </strong>are carefully measured in the algorithm and therefore in the level creation process, so the patterns
+	 succession will follow a natural sense of progression.</p>
+
+
+
+			<div class="row">
+				<div class="col-md-4">
+					
+					<div class="portfolio-image-bt-text" style="width: 90%;" >
+						<img class="image img-fluid" src="images/MarioGenerator/Enviro_1.PNG" alt="">
+					</div>			
+				</div>
+	
+				<div class="col-md-4">
+					
+					<div class="portfolio-image-bt-text" style="width: 90%;" >
+						<img class="image img-fluid" src="images/MarioGenerator/Enviro_2.PNG" alt="">
+					</div>			
+				</div>
+	
+				<div class="col-md-4">
+					
+					<div class="portfolio-image-bt-text" style="width: 90%;" >
+						<img class="image img-fluid" src="images/MarioGenerator/Enviro_3.PNG" alt="">
+					</div>			
+				</div>
+			</div>
+			<br>
+			<p>The are 7 types of levels implemented so far (Jungle, Volcano and Desert above), and each one of them features <strong>unique patterns and elements</strong>. They not only<strong> visually stand out</strong>, but also add a <strong>new layer in terms of gameplay </strong>(mushrooms for verticality, lava for timed jumps, quicksands for rythm)</p>
+
+			</div>
+		</div>
+		
+		</div>
+
+		<div class="resume-item mb-4">
+			<div class="row">	
+			<div class="col-md-12">			
+			<h2 style="text-align: center;"><b>Outcome / Closing Thoughts</b></h2>
+			<ul>
+				<li>In this project we have analyzed the <strong>potential of design patterns</strong> in&nbsp;<strong>procedural content generation</strong>, and presented a way to create Super Mario levels using this premise.</li>
+				<br />
+				<li>Although all the implementations have been carried out successfully, the result is <strong>something limited</strong>. However, it is intended that the result obtained serves to s<strong>hed some ligt to the platform genre</strong> in the world of <strong>automated generation</strong>.</li>
+				<br />
+				<li>Although the auto-generated content continues to be behind in some areas where the than the human-generated one, it is beneficial to take initiative and try to integrate automatic generation in existing games that precisely exhibit these areas. Only this way can we continue <strong>expanding the horizons of the procedural generation </strong>in video games and advancing the research this powerful tool.</li>
+			</ul>
+			</div>
+		</div>
+		
 		</div>
 	</div>
 
-	<div class="container">
-		<div class="portfolio-description">
-			<h1><b>Super Mario Level Generator using Design Patterns</b></h1>
-		
-			<h2><b>What is it?</b></h2>
-			<p>As part of my university final project, I made a thesis called
-			<i>"Super Mario Level Generator, an approach to procedurally generated worlds through design patterns"</i>,
-			in which I explore the problems that prodedural level generation implies in 2D-platform games, and how these problems can be resolved using game design patterns. <br><br>
-			In order to support the thesis, I created a Super Mario Level Generator which creates automatized levels based on these principles. The video in this page shows
-			an example of a generated level.<br><br>
-			
-			 
-			 The generator is entirely made on C++ and uses "Mario Editor", a useful open source tool developed by <i>Hello Fangaming</i>, as the engine in which to play the generated levels.<br><br>
-			</div>
-	
-		</div>
 			 <!--
 			 If you would like to know more about the subject or how the project was made, you can read the whole paper pressing the button down below, but bear in mind it's in Spanish!</p>
 		</div>
@@ -88,7 +147,7 @@
 		</div>
 	</div>
 -->
-
+</section>
 
 	
 	<footer class="site-footer">
