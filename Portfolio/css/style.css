@@ -238,7 +238,7 @@ a {
           position: relative;
           overflow: hidden; }
           .sub-hero_2, .sub-hero_2 .row {
-            height: 40vh;
+            height: 30vh;
             min-height: 40px; }
           .sub-hero_2:before {
             content: "";
